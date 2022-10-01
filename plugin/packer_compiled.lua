@@ -74,6 +74,26 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  edge = {
+    loaded = true,
+    path = "/Users/yezijie/.local/share/nvim/site/pack/packer/start/edge",
+    url = "https://github.com/sainnhe/edge"
+  },
+  ["oceanic-next"] = {
+    loaded = true,
+    path = "/Users/yezijie/.local/share/nvim/site/pack/packer/start/oceanic-next",
+    url = "https://github.com/mhartington/oceanic-next"
+  },
+  ["omni.vim"] = {
+    loaded = true,
+    path = "/Users/yezijie/.local/share/nvim/site/pack/packer/start/omni.vim",
+    url = "https://github.com/yonlu/omni.vim"
+  },
+  ["onedarkpro.nvim"] = {
+    loaded = true,
+    path = "/Users/yezijie/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
+    url = "https://github.com/olimorris/onedarkpro.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/yezijie/.local/share/nvim/site/pack/packer/start/packer.nvim",

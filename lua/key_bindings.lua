@@ -77,3 +77,6 @@ map("i", "<C-e>", "<ESC>A", opt)
 
 -- ctrl+s 保存文件
 map("i","<C-s>","<ESC>:w<CR>i<Right>",opt)
+
+-- ctrl+z 撤销
+map("i","<C-z>","<ESC>ui",opt)
