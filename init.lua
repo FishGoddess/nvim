@@ -24,3 +24,6 @@ require("plugins.telescope")
 
 -- dashboard
 require("plugins.dashboard")
+
+-- nvim-treesitter
+require("plugins.nvim_treesitter")

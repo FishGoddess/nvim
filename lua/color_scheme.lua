@@ -1,4 +1,4 @@
-local color_scheme = "edge"
+local color_scheme = "onedarkpro"
 
 local ok, err = pcall(vim.cmd, "colorscheme " .. color_scheme)
 if not ok then
