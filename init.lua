@@ -6,6 +6,7 @@ require("key_bindings")
 
 -- 主题设置
 require("color_scheme")
+require("plugins.onedarkpro")
 
 -- Packer 插件管理
 require("plugins.packer")
